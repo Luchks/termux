@@ -1,1 +1,2 @@
 esperao que todo salbe ga como yo lo planee.:
+Plugin 'pangloss/vim-javascript'
