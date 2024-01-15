@@ -1,16 +1,11 @@
-esperao que todo salbe ga como yo lo planee.:
-Plugin 'pangloss/vim-javascript'
------------------------------
-function retornarFecha() {
-    let fecha;
-    fecha = new Date();
-    var cadena = fecha.getDate() + '/' + (fecha.getMonth() + 1) + '/' + fecha.getFullYear();
-    return cadena;
-}
+git clone https://github.com/mayTermux/lampTermux
+cd lampTermux
+./install.sh
+URL Apache http://localhost:8080
 
-function retornarHora() {
-    let fecha;
-    fecha = new Date();
-    var cadena = fecha.getHours() + ':' + fecha.getMinutes() + ':' + fecha.getSeconds();
-    return cadena;
-}
+URL Apache http://localhost:8080
+Default Port Apache 8080
+Default MariaDB User mysql -u $(whoami)
+htdocs PATH $HOME/htdocs
+...................................
+    
